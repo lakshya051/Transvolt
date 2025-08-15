@@ -1042,7 +1042,7 @@ HTML_TEMPLATE = '''
             <input type="file" id="csvFile" accept=".csv" class="file-input">
             <br>
             <button onclick="uploadFile()" class="btn">Analyze Data</button>
-            <button onclick="analyzeSample()" class="btn">Use Sample Data</button>
+            # <button onclick="analyzeSample()" class="btn">Use Sample Data</button>
         </div>
         
         <div id="loading" class="loading">
@@ -1261,3 +1261,4 @@ if __name__ == '__main__':
     print("Access the dashboard at: http://localhost:5000")
     
     app.run(debug=True, host='0.0.0.0', port=5000)
+
