@@ -401,7 +401,7 @@
 #             <input type="file" id="csvFile" accept=".csv" class="file-input">
 #             <br>
 #             <button onclick="uploadFile()" class="btn">Analyze Data</button>
-#             <button onclick="analyzeSample()" class="btn">Use Sample Data</button>
+#             <button onclick="analyzeSample()" class="btn">Use Random Data</button>
 #         </div>
         
 #         <div id="loading" class="loading">
@@ -2015,3 +2015,4 @@ if __name__ == '__main__':
     print("Sample data includes realistic trends, peaks, valleys, and noise")
     
     app.run(debug=True, host='0.0.0.0', port=5000)
+
